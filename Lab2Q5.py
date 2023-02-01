@@ -1,6 +1,3 @@
-# Count no of vowels in a string using sets
-
-# Function to count vowel
 def vowel_count(str):
     # Initializing count variable to 0
     count = 0
@@ -12,9 +9,6 @@ def vowel_count(str):
 
     print("No. of vowels :", count)
 
-str = "DebmalyaDasgupta"
-
-
+str = input('Enter the string : ')
 
 vowel_count(str)
-
